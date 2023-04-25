@@ -1,0 +1,146 @@
+{
+  "_chunk-101896b7.js": {
+    "file": "assets/chunks/chunk-101896b7.js"
+  },
+  "_chunk-1bc8dc40.js": {
+    "file": "assets/chunks/chunk-1bc8dc40.js",
+    "imports": [
+      "_chunk-68dbd79c.js"
+    ]
+  },
+  "_chunk-68dbd79c.js": {
+    "file": "assets/chunks/chunk-68dbd79c.js"
+  },
+  "_chunk-bc8bf89c.js": {
+    "file": "assets/chunks/chunk-bc8bf89c.js"
+  },
+  "_chunk-ebf5c01c.js": {
+    "file": "assets/chunks/chunk-ebf5c01c.js",
+    "imports": [
+      "_chunk-bc8bf89c.js"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.117_vk7lxlkx55u72hgm2atthgcmwe/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "pages/hello/index.page.tsx",
+      "pages/index.page.tsx",
+      "pages/markdown.page.mdx",
+      "pages/star-wars/@id.page.tsx",
+      "pages/star-wars/index/index.page.tsx",
+      "renderer/_error.page.tsx",
+      "renderer/_default.page.client.tsx"
+    ],
+    "file": "assets/entry-server-routing.ce98ea99.js",
+    "imports": [
+      "_chunk-bc8bf89c.js",
+      "_chunk-101896b7.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.117_vk7lxlkx55u72hgm2atthgcmwe/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.117_vk7lxlkx55u72hgm2atthgcmwe/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "pages/hello/index.page.tsx",
+      "pages/index.page.tsx",
+      "pages/markdown.page.mdx",
+      "pages/star-wars/@id.page.tsx",
+      "pages/star-wars/index/index.page.tsx",
+      "renderer/_error.page.tsx",
+      "renderer/_default.page.client.tsx"
+    ],
+    "file": "assets/entry-client-routing.d825006b.js",
+    "imports": [
+      "_chunk-bc8bf89c.js",
+      "_chunk-101896b7.js",
+      "_chunk-ebf5c01c.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.117_vk7lxlkx55u72hgm2atthgcmwe/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "pages/hello/index.page.tsx": {
+    "file": "assets/pages/hello/index.page.cc53f6cc.js",
+    "imports": [
+      "_chunk-68dbd79c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/hello/index.page.tsx"
+  },
+  "pages/index.page.tsx": {
+    "file": "assets/pages/index.page.21345b96.js",
+    "imports": [
+      "_chunk-68dbd79c.js",
+      "_chunk-ebf5c01c.js",
+      "_chunk-1bc8dc40.js",
+      "_chunk-bc8bf89c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/index.page.tsx"
+  },
+  "pages/markdown.page.mdx": {
+    "file": "assets/pages/markdown.page.ace6d43c.js",
+    "imports": [
+      "_chunk-68dbd79c.js",
+      "_chunk-1bc8dc40.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/markdown.page.mdx"
+  },
+  "pages/star-wars/@id.page.tsx": {
+    "file": "assets/pages/star-wars/@id.page.8070f5a4.js",
+    "imports": [
+      "_chunk-68dbd79c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/star-wars/@id.page.tsx"
+  },
+  "pages/star-wars/index/index.page.tsx": {
+    "file": "assets/pages/star-wars/index/index.page.6fffbe9f.js",
+    "imports": [
+      "_chunk-68dbd79c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/star-wars/index/index.page.tsx"
+  },
+  "renderer/_default.page.client.css": {
+    "file": "assets/static/default.page.client.7be06a4d.css",
+    "src": "renderer/_default.page.client.css"
+  },
+  "renderer/_default.page.client.tsx": {
+    "assets": [
+      "assets/static/logo.bebe2e90.svg",
+      "assets/static/loading.ade72bfe.svg"
+    ],
+    "css": [
+      "assets/static/default.page.client.7be06a4d.css"
+    ],
+    "file": "assets/renderer/default.page.client.29cfd61c.js",
+    "imports": [
+      "_chunk-68dbd79c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_default.page.client.tsx"
+  },
+  "renderer/_error.page.tsx": {
+    "file": "assets/renderer/error.page.fdb94e9a.js",
+    "imports": [
+      "_chunk-68dbd79c.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_error.page.tsx"
+  },
+  "renderer/css/loading.svg": {
+    "file": "assets/static/loading.ade72bfe.svg",
+    "src": "renderer/css/loading.svg"
+  },
+  "renderer/logo.svg": {
+    "file": "assets/static/logo.bebe2e90.svg",
+    "src": "renderer/logo.svg"
+  }
+}

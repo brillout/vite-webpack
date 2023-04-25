@@ -1,0 +1,3 @@
+import{a as t,j as o,F as a}from"../chunks/chunk-68dbd79c.js";import{C as c}from"../chunks/chunk-1bc8dc40.js";const m={title:"Some Markdown Page"};function r(e){const n=Object.assign({h1:"h1",p:"p",em:"em"},e.components);return o(a,{children:[t(n.h1,{children:"Markdown"}),`
+`,o(n.p,{children:["This page is written in ",t(n.em,{children:"Markdown"}),"."]}),`
+`,o(n.p,{children:["MDX allows us to include interactive components in the markdown. ",t(c,{})]})]})}function d(e={}){const{wrapper:n}=e.components||{};return n?t(n,Object.assign({},e,{children:t(r,e)})):r(e)}export{d as default,m as documentProps};
